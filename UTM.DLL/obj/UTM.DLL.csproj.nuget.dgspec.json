@@ -1,26 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj": {}
+    "D:\\hackathon\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj": {
+    "D:\\hackathon\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj",
+        "projectUniqueName": "D:\\hackathon\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj",
         "projectName": "UTM.DLL",
-        "projectPath": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj",
-        "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM.DLL\\obj\\",
+        "projectPath": "D:\\hackathon\\UTM-WEB-Legends\\UTM.DLL\\UTM.DLL.csproj",
+        "packagesPath": "C:\\Users\\dexen\\.nuget\\packages\\",
+        "outputPath": "D:\\hackathon\\UTM-WEB-Legends\\UTM.DLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dexen\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -70,16 +67,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

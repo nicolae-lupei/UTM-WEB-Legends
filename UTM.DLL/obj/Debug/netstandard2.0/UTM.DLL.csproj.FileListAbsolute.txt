@@ -6,3 +6,12 @@ C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.Assembly
 C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.pdb
 C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.dll
 C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.pdb
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.deps.json
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.dll
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.pdb
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.csprojAssemblyReference.cache
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.csproj.CoreCompileInputs.cache
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.AssemblyInfoInputs.cache
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.AssemblyInfo.cs
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.dll
+D:\hackathon\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.pdb

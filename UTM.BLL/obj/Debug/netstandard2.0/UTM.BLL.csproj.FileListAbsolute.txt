@@ -9,3 +9,15 @@ C:\Users\nicol\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.Assembly
 C:\Users\nicol\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.csproj.CopyComplete
 C:\Users\nicol\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.dll
 C:\Users\nicol\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.pdb
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\bin\Debug\netstandard2.0\UTM.BLL.deps.json
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\bin\Debug\netstandard2.0\UTM.BLL.dll
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\bin\Debug\netstandard2.0\UTM.BLL.pdb
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\bin\Debug\netstandard2.0\UTM.DLL.dll
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\bin\Debug\netstandard2.0\UTM.DLL.pdb
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.csprojAssemblyReference.cache
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.csproj.CoreCompileInputs.cache
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.AssemblyInfoInputs.cache
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.AssemblyInfo.cs
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.csproj.CopyComplete
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.dll
+D:\hackathon\UTM-WEB-Legends\UTM.BLL\obj\Debug\netstandard2.0\UTM.BLL.pdb
