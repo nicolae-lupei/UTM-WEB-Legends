@@ -57,11 +57,9 @@ namespace UTM.DLL.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
                 {
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("ProviderKey")
-                        .HasMaxLength(128);
+                    b.Property<string>("ProviderKey");
 
                     b.Property<string>("ProviderDisplayName");
 
@@ -91,11 +89,9 @@ namespace UTM.DLL.Migrations
                 {
                     b.Property<Guid>("UserId");
 
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("Name")
-                        .HasMaxLength(128);
+                    b.Property<string>("Name");
 
                     b.Property<string>("Value");
 
@@ -113,7 +109,7 @@ namespace UTM.DLL.Migrations
 
                     b.Property<DateTime>("Created");
 
-                    b.Property<Guid?>("HostelId");
+                    b.Property<Guid>("HostelId");
 
                     b.Property<bool>("IsDeleted");
 
@@ -189,7 +185,7 @@ namespace UTM.DLL.Migrations
 
                     b.Property<DateTime>("Created");
 
-                    b.Property<Guid?>("FloorId");
+                    b.Property<Guid>("FloorId");
 
                     b.Property<bool>("IsDeleted");
 
@@ -357,16 +353,18 @@ namespace UTM.DLL.Migrations
 
             modelBuilder.Entity("UTM.DLL.Models.HostelModels.Floor", b =>
                 {
-                    b.HasOne("UTM.DLL.Models.HostelModels.Hostel")
+                    b.HasOne("UTM.DLL.Models.HostelModels.Hostel", "Hostel")
                         .WithMany("Floors")
-                        .HasForeignKey("HostelId");
+                        .HasForeignKey("HostelId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("UTM.DLL.Models.HostelModels.Room", b =>
                 {
-                    b.HasOne("UTM.DLL.Models.HostelModels.Floor")
+                    b.HasOne("UTM.DLL.Models.HostelModels.Floor", "Floor")
                         .WithMany("Rooms")
-                        .HasForeignKey("FloorId");
+                        .HasForeignKey("FloorId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("UTM.DLL.Models.HostelModels.RoomInventory", b =>
