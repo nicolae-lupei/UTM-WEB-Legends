@@ -1,0 +1,8 @@
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.deps.json
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.dll
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.csprojAssemblyReference.cache
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.AssemblyInfoInputs.cache
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.AssemblyInfo.cs
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\bin\Debug\netstandard2.0\UTM.DLL.pdb
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.dll
+C:\Users\nicol\UTM-WEB-Legends\UTM.DLL\obj\Debug\netstandard2.0\UTM.DLL.pdb

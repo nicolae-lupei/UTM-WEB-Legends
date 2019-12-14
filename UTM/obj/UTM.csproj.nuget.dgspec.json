@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\source\\repos\\UTM\\UTM\\UTM.csproj": {}
+    "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM\\UTM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\source\\repos\\UTM\\UTM\\UTM.csproj": {
+    "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM\\UTM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\UTM\\UTM\\UTM.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM\\UTM.csproj",
         "projectName": "UTM",
-        "projectPath": "C:\\Users\\nicol\\source\\repos\\UTM\\UTM\\UTM.csproj",
+        "projectPath": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM\\UTM.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\source\\repos\\UTM\\UTM\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\UTM-WEB-Legends\\UTM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
