@@ -102,5 +102,15 @@ namespace UTM.Presentation.Services
             await _context.Rooms.AddAsync(model.Adapt<Room>());
             return await _context.SaveAsync();
         }
+
+        public async Task<ResultModel<IEnumerable<Room>>> GetFloorRoomsAsync(Guid? floorId)
+        {
+            var rooms = await _context.Rooms.Where(x => x.FloorId.Equals(floorId)).ToListAsync();
+            return new ResultModel<IEnumerable<Room>>
+            {
+                IsSuccess = true,
+                Result = rooms
+            };
+        }
     }
 }

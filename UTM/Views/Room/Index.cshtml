@@ -1,0 +1,98 @@
+@{
+    ViewData["Title"] = "Floor Rooms";
+}
+
+<div class="row">
+    <div class="col-md-12 p-2">
+        <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#addMember">Add new room</a>
+    </div>
+
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Numar</th>
+                    <th scope="col">Nr max persoane</th>
+                    <th scope="col">Sef de camera</th>
+                    <th>Numarul curent de locatari</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>701</td>
+                    <td>2</td>
+                    <td>Lupei Nicolae</td>
+                    <td>2</td>
+                    <td>
+                        <a class="btn btn-warning" asp-controller="Room" asp-action="RoomDetails">Room details</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>702</td>
+                    <td>10</td>
+                    <td>Guidea Ion</td>
+                    <td>2</td>
+                    <td>
+                        <a class="btn btn-warning" asp-controller="Room" asp-action="RoomDetails">Room details</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>704</td>
+                    <td>4</td>
+                    <td>Busila Gabriel</td>
+                    <td>2</td>
+                    <td>
+                        <a class="btn btn-warning" asp-controller="Room" asp-action="RoomDetails">Room details</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+
+@section Modals
+{
+    
+    <!-- Modal -->
+    <div class="modal fade" id="addMember" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add new room</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Numar</label>
+                            <input class="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Nume</label>
+                            <input class="form-control" id="exampleInputPassword1" />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Numar persoane</label>
+                            <input class="form-control" id="exampleInputPassword1" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

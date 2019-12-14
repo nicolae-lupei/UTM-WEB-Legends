@@ -117,8 +117,6 @@ namespace UTM
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
-            app.UseMvc();
         }
     }
 }

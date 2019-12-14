@@ -15,5 +15,6 @@ namespace UTM.BLL.Interfaces
         Task<ResultModel> AddFloorToHostel(AddFloorViewModel model);
         Task<ResultModel<IEnumerable<Floor>>> GetHostelFloorsAsync(Guid hostelId);
         Task<ResultModel> AddNewRoomAsync(AddRoomViewModel model);
+        Task<ResultModel<IEnumerable<Room>>> GetFloorRoomsAsync(Guid? floorId);
     }
 }

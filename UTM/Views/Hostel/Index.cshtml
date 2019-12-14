@@ -1,8 +1,108 @@
 @{
-    ViewData["Title"] = "Hostel view";
+    ViewData["Title"] = "Hostels";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Hostel</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+    <div class="col-md-12 p-2">
+        <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#addHostel">Add new hostel</a>
+    </div>
+
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Hostel number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Camin 1</td>
+                    <td>Some description</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="Floor">Manage floors</a>
+                        <a class="btn btn-warning" asp-action="Index" asp-controller="Locatari">Locatari</a>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="HostelAdministration">Administration</a>
+                        <a class="btn btn-danger" href="#">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Camin 2</td>
+                    <td>Some description</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="Floor">Manage floors</a>
+                        <a class="btn btn-warning" asp-action="Index" asp-controller="Locatari">Locatari</a>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="HostelAdministration">Administration</a>
+                        <a class="btn btn-danger" href="#">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Camin 3</td>
+                    <td>Some description</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="Floor">Manage floors</a>
+                        <a class="btn btn-warning" asp-action="Index" asp-controller="Locatari">Locatari</a>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="HostelAdministration">Administration</a>
+                        <a class="btn btn-danger" href="#">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Camin 4</td>
+                    <td>Some description</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="Floor">Manage floors</a>
+                        <a class="btn btn-warning" asp-action="Index" asp-controller="Locatari">Locatari</a>
+                        <a class="btn btn-primary" asp-action="Index" asp-controller="HostelAdministration">Administration</a>
+                        <a class="btn btn-danger" href="#">Remove</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
 </div>
+
+
+@section Modals
+{
+    <!-- Modal -->
+    <div class="modal fade" id="addHostel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add new hostel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Numar</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Nume</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="exampleCheck1">Descriere</label>
+                            <textarea name="exampleCheck1" class="form-control"></textarea
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

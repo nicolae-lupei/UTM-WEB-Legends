@@ -49,6 +49,12 @@ namespace UTM.Presentation.Api
         public async Task<JsonResult> GetHostelById(Guid hostelId)
             => Json(await _hostelService.GetHostelByIdAsync(hostelId));
 
+        [HttpGet]
+        [Route("api/[controller]/[action]")]
+        [Produces("application/json", Type = typeof(ResultModel<IEnumerable<Room>>))]
+        public async Task<JsonResult> GetFloorRooms(Guid floorId)
+            => Json(await _hostelService.GetFloorRoomsAsync(floorId));
+
 
         [HttpGet]
         [Route("api/[controller]/[action]")]
@@ -83,5 +89,6 @@ namespace UTM.Presentation.Api
         {
             return !ModelState.IsValid ? Json(new ResultModel().AttachModelState(ModelState)) : Json(await _hostelService.AddFloorToHostel(model));
         }
+
     }
 }

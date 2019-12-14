@@ -8,5 +8,7 @@ namespace UTM.BLL.ViewModels
     {
         public virtual int Number { get; set; }
         public virtual Guid HostelId { get; set; }
+
+        public virtual Guid FloorHeadId { get; set; }
     }
 }

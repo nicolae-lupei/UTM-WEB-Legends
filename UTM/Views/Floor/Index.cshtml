@@ -1,0 +1,100 @@
+@{
+    ViewData["Title"] = "Hostels";
+}
+
+<div class="row">
+    <div class="col-md-12 p-2">
+        <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#addMember">Add new floor</a>
+    </div>
+
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Numar</th>
+                    <th scope="col">Nume</th>
+                    <th scope="col">Sef de etaj</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Etajul 1</td>
+                    <td>Lupei Nicolae</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Room" asp-action="Index">Rooms</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Etajul 2</td>
+                    <td>Guidea Ion</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Room" asp-action="Index">Rooms</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Etajul 3</td>
+                    <td>Busila Gabriel</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Room" asp-action="Index">Rooms</a>
+                        <a class="btn btn-primary" href="#">Remove</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+@section Modals
+{
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="addMember" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add new member</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">User</label>
+                            <select class="form-control" id="exampleInputPassword1">
+                                <option>Not selected</option>
+                                <option>Lupei Nicolae</option>
+                                <option>User y</option>
+                                <option>User x</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Role</label>
+                            <select class="form-control" id="exampleInputPassword1">
+                                <option>Not selected</option>
+                                <option>Sef etaj</option>
+                                <option>Administrator camin</option>
+                                <option>Membru</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

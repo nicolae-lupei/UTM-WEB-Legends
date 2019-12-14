@@ -13,5 +13,8 @@ namespace UTM.DLL.Models.HostelModels
         public virtual Guid HostelId { get; set; }
 
         public virtual IEnumerable<Room> Rooms { get; set; }
+
+        public virtual User FloorHead { get; set; }
+        public virtual Guid FloorHeadId { get; set; }
     }
 }
