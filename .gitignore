@@ -242,3 +242,4 @@ wwwroot/lib/
 /obj
 /bin
 /dist
+.vs
