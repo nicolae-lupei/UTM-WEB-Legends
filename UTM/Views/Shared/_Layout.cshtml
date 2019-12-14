@@ -59,7 +59,7 @@
 
             <nav class="navigation">
                 <ul>
-                    <li class=""><a href="index.html" title="Dashboard"><span class="nav-icon material-icons">public</span> Dashboard</a></li>
+                    <li class=""><a asp-controller="Home" asp-action="Index" title="Dashboard"><span class="nav-icon material-icons">public</span> Dashboard</a></li>
                     <li>
                         <a href="theme-setting.html" title=""><span class="nav-icon material-icons ">color_lens</span> Requests </a>
                     </li>
@@ -67,7 +67,8 @@
                         <a href="#" title=""><span class="nav-icon material-icons">dashboard</span> Admnistration<span class="toogle-sub-nav material-icons">keyboard_arrow_right</span></a>
                         <ul class="sub-nav">
                             <li><a asp-controller="Hostel" asp-action="Index" title="Top Navigation">Camine</a></li>
-                            <li><a asp-controller="Hostel" asp-action="Index" title="Top Navigation">Users</a></li>
+                            <li><a asp-controller="User" asp-action="Index" title="Top Navigation">Users</a></li>
+                            <li><a asp-controller="Role" asp-action="Index" title="Top Navigation">Roles</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -75,7 +76,7 @@
 
         </aside>
 
-
+            
 
         <!--RIGHT CONTENT AREA-->
         <div class="content-area">

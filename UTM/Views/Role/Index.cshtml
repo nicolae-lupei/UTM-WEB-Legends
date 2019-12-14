@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using UTM.DLL
+@{
+    ViewData["Title"] = "Roles";
+}
+
+@inject RoleManager<Role> RoleManager
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in RoleManager.Roles.ToList())
+                {
+                    <tr>
+                        <td>
+                            @user.Name
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="#">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

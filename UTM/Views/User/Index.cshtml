@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using UTM.DLL.Models
+
+@inject UserManager<User> UserManager
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>User Name</th>
+                    <th>Roles</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in UserManager.Users.ToList())
+                {
+                    <tr>
+                        <td>
+                            @user.UserName
+                        </td>
+                        <td>
+                            @{
+                                var roles = await UserManager.GetRolesAsync(user);
+                            }
+                            @foreach (var role in roles)
+                            {
+                                @role
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" href="#">Change roles</a>
+                            <a class="btn btn-danger" href="#">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
