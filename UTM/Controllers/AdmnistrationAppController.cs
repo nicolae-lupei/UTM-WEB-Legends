@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace UTM.Controllers
+namespace UTM.Presentation.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class AdmnistrationAppController : Controller
     {
-
-        public IActionResult StartPage()
+        public IActionResult Index()
         {
             return View();
         }

@@ -1,0 +1,204 @@
+﻿@{
+    ViewData["Title"] = "Mail app";
+    Layout = "_MailBoxLayout";
+}
+
+<div class="card">
+
+
+    <div class="row no-gutters">
+        <div class="col-lg medium d-none d-lg-block fixed-width border-right">
+
+            <div class="card-body ">
+                <button class="btn btn-danger mb-4 btn-block" data-toggle="modal" data-target="#composeMail">Compose</button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-dark weight-400 active" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">inbox</span>
+                            Inbox
+                            <span class="badge badge-success float-right text-white">41</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted weight-400 px-0" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">star</span>
+                            Stared
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-muted weight-400" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">label_important</span>
+                            Important
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-muted weight-400" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">insert_drive_file</span>
+                            Draft
+                            <span class="badge badge-warning float-right text-white">07</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-muted weight-400" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">watch_later</span>
+                            Snoozed
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-muted weight-400" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">send</span>
+                            Sent Mail
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-0 text-muted weight-400" href="#">
+                            <span class="material-icons align-text-bottom md-18 mr-2">delete</span>
+                            Trash
+                            <span class="badge badge-danger float-right text-white">12</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="my-4">
+                    <label class="text-muted"><small>Custom Folders</small></label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-lg large fixed-width  ">
+
+            <div class="card-header py-4">
+                <input type="search" name="" class="form-control bg-light rounded" placeholder="Search">
+            </div>
+
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar1.png">
+                <div class="media-body">
+                    <h6 class="weight-400">Akshay Kumar <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id gravida justo.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar2.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom bg-light p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar4.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom  p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar3.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar1.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar2.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar3.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom  p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar4.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+            <div class="media border-bottom p-3">
+                <img class="mr-3 rounded" width="40" src="~/assets/images/avtar2.png">
+                <div class="media-body">
+                    <h6 class=" weight-400">Manu Chawla <small class="text-muted float-right weight-300">2:30am</small></h6>
+                    <small class="text-muted">Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque.</small>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg d-none d-lg-block border-left">
+
+            <div class="card-body ">
+
+                <div class="media align-items-center">
+                    <img class="mr-3 rounded" width="40" src="~/assets/images/avtar1.png">
+                    <div class="media-body">
+                        <h6 class="m-0 weight-400">Akshay Kumar</h6>
+                        <small class="text-muted">Lorem ipsum dolor sit amet.</small>
+                    </div>
+
+                    <a href="" class="text-muted mr-2"><span class="material-icons md-18">print</span></a>
+                    <a href="" class="text-muted mr-2"><span class="material-icons md-18">star_outline</span></a>
+                    <a href="" class="text-muted mr-2"><span class="material-icons md-18">reply</span></a>
+                    <a href="" class="text-muted mr-2"><span class="material-icons md-18">more_vert</span></a>
+
+                </div>
+
+                <hr class="my-4">
+
+                <h5 class="weight-400 mb-3">Hello, Akshay Kumar</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id gravida justo. Sed orci purus, interdum nec interdum gravida, cursus a quam. Pellentesque dictum varius ipsum sed aliquet. Donec vitae quam facilisis, accumsan nisl ac, euismod nulla. Aenean id eleifend justo. Proin a ornare ex, ornare tempor nisl. Nulla at lobortis quam. Duis sodales sagittis tortor, nec blandit quam pellentesque a. Sed lectus ante, condimentum sit amet nisi non, rutrum commodo massa. Nulla convallis maximus tortor et efficitur. Sed et enim nisi. Maecenas quis dolor ipsum. Aenean tristique orci a felis faucibus, in tempus augue facilisis.</p>
+
+                <p>Praesent egestas euismod erat eget accumsan. Praesent scelerisque, nisi non egestas malesuada, urna erat tristique mi, id tempus augue urna quis velit.</p>
+
+                <p>Quisque non nibh a dolor cursus ullamcorper. Fusce commodo lobortis neque, in pretium lacus luctus ut. In erat purus, tempor in leo et, imperdiet viverra orci. Donec vel orci et eros dapibus ultricies. Ut pretium fermentum tempor. Ut vestibulum nibh eget magna ultricies eleifend. Duis iaculis volutpat nibh.</p>
+
+                <p class="text-muted">
+                    Regards,<br>
+                    Manu Chawala
+                </p>
+
+                <hr class="my-4 dashed">
+
+                <div class="media align-items-center">
+
+                    <a href="#" class="material-icons md-18 text-muted mr-2">attach_file</a>
+                    <a href="#" class="material-icons md-18 text-muted mr-3">tag_faces</a>
+                    <div class="media-body">
+                        <input type="text" name="" class="form-control border-0" placeholder="Reply Message">
+                    </div>
+                    <button class="btn btn-primary btn-sm">Reply</button>
+                    <button class="btn btn-sm btn-outline-secondary ml-2" data-toggle="modal" data-target="#composeMail">Forword</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

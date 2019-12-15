@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Subiecte";
+    Layout = "_ForumLayout";
+}
+
+
+@for (var i = 1; i <= new Random().Next(10, 100); i++)
+{
+    <div class="subject jumbotron jumbotron-fluid" style="cursor: pointer;">
+        <div class="container">
+            <h1 class="display-4">Subiectul @i</h1>
+            <p class="lead">@(new Random().Next(1, 300)) participanti</p>
+        </div>
+    </div>
+}
+
+@section Scripts
+{
+    <script>
+        $(".subject").on("click", function () {
+            location.href = "/ForumApp/PublicForum";
+        });
+    </script>
+}

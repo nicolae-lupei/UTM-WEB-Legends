@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Programarile mele";
+    Layout = "_GymLayout";
+}
+
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    Data
+                </th>
+                <th>
+                    Ora
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            @for (var i = 10; i < 30; i++)
+            {
+                <tr>
+                    <td>@(i).02.2019</td>
+                    <td>
+                        @{
+                            var hour = new Random().Next(1, 20);
+                        }
+                        @(hour):00
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary">Notifica cu 1 ora inainte</a>
+                        <a href="#" class="btn btn-danger">Anuleaza</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

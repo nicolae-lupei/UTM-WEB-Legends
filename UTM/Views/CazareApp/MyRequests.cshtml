@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Cererile mele";
+    Layout = "_CazareLayout";
+}
+
+
+<div class="table-responsive">
+    <table class="table mb-4 responsive-table table-bordered bg-white">
+        <thead class="thead-light2">
+            <tr>
+                <th scope="col" width="1">Numarul camerii</th>
+                <th scope="col" class="resizeable">Cerere <span class="material-icons align-text-bottom ml-1 md-18">sort</span></th>
+                <th scope="col" class="resizeable">ID-ul cererii <span class="material-icons align-text-bottom ml-1 md-18">sort</span></th>
+                <th scope="col" class="resizeable">Date <span class="material-icons align-text-bottom ml-1 md-18">sort</span></th>
+                <th scope="col" class="resizeable">Status <span class="material-icons align-text-bottom ml-1 md-18">sort</span></th>
+                <th scope="col" width="1">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 1; i < new Random().Next(5, 100); i++)
+            {
+                <tr>
+                    <td class="align-middle" data-label="Product Image">@(new Random().Next(1, 1000))-A</td>
+                    <td class="align-middle" data-label="Product Name">Lorem Ipsum Chair</td>
+                    <td class="align-middle" data-label="Order ID">#98232</td>
+                    <td class="align-middle" data-label="Date of order">23/05/2018</td>
+                    <td class="align-middle" data-label="Status">
+                        @{
+                            var stateNumber = new Random().Next(0, 4);
+                            var stateText = "";
+                            var stateIcon = "";
+                            switch (stateNumber)
+                            {
+                                case 0:
+                                {
+                                    stateIcon = "success";
+                                    stateText = "Acceptat";
+                                }
+                                    break;
+                                case 1:
+                                    {
+                                        stateIcon = "warning";
+                                        stateText = "In progress";
+                                    }
+                                    break;
+                                case 2:
+                                    {
+                                        stateIcon = "primary";
+                                        stateText = "new";
+                                    }
+                                    break;
+                                case 3:
+                                    {
+                                        stateIcon = "danger";
+                                        stateText = "Rejected";
+                                    }
+                                    break;
+                            }
+                        }
+                        <span class="badge badge-pill text-white px-3 py-2 badge-@(stateIcon)">
+                            @stateText
+                        </span>
+                    </td>
+
+                    <td class="align-middle" data-label="Actions" class="text-md-center dropdown dropleft">
+                        <a href="" class="text-muted" id="actionDropdown" data-toggle="dropdown"><span class="material-icons md-20 align-middle">more_vert</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="actionDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

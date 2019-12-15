@@ -5,12 +5,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace UTM.Controllers
+namespace UTM.Presentation.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class CazareAppController : Controller
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        public IActionResult StartPage()
+
+        public IActionResult MyRequests()
         {
             return View();
         }
