@@ -1,0 +1,723 @@
+﻿@{
+    ViewData["Title"] = "Notitele mele";
+    Layout = "_NotesLayout";
+}
+
+
+<div class="row flex-lg-column" style="max-height: 1530px;">
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    <h6 class="weight-400">Orci varius natoque</h6>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum felis sed erat pellentesque, sed lobortis sapien cursus. Maecenas mollis augue nec eros mollis pellentesque.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-success mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <span class="text-white">Etiam cursus feugiat luctus. Maecenas laoreet mauris ut libero maximus condimentum.</span>
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-white"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-white"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-white"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-white"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-white"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-white"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    <h6 class="weight-400">Curabitur hendrerit tincidunt ultrices</h6>
+                    Nulla sit amet odio eu orci tincidunt fringilla ac at est. Donec sed ornare odio, quis porta mi. Fusce ac libero a turpis varius condimentum. Aliquam erat volutpat. Maecenas ut nisi interdum, ultrices lorem at, sodales risus.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    Nulla sit amet odio eu orci tincidunt fringilla ac at est. Donec sed ornare odio, quis porta mi. Fusce ac libero a turpis varius condimentum. Aliquam erat volutpat. Maecenas ut nisi interdum, ultrices lorem at, sodales risus. Suspendisse potenti. Donec quis mattis elit. Donec convallis suscipit dui scelerisque porta. Etiam cursus feugiat luctus. Maecenas laoreet mauris ut libero maximus condimentum.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    Etiam auctor sapien ut nisi facilisis blandit. Pellentesque habitant morbi tristique senectus.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card border-danger mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum felis sed erat pellentesque, sed lobortis sapien cursus. Maecenas mollis augue nec eros mollis pellentesque. In tincidunt pharetra libero. Nulla facilisi. Cras rhoncus egestas orci, non ultrices justo tincidunt sed. Aenean tincidunt ultricies libero vel feugiat. Curabitur hendrerit tincidunt ultrices. Sed varius ligula non risus aliquam, at tristique lorem condimentum. Sed molestie mauris at tempus dapibus. Nunc bibendum rutrum purus, at aliquam quam congue eget. Praesent tincidunt nibh at purus rutrum rhoncus. Morbi convallis, diam eu commodo lacinia, libero nisi rutrum justo, sit amet eleifend tortor turpis eget magna. Donec sollicitudin ex quis risus malesuada, ac varius magna commodo. In non elit at ligula iaculis lobortis at ut urna.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-warning mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <span class="text-white">Praesent nec mattis mi. Nullam venenatis arcu et commodo accumsan. Curabitur egestas sem non turpis tincidunt, eu pulvinar arcu luctus. Sed pellentesque id metus eu iaculis. Donec convallis elit nisi, ut gravida felis faucibus tristique. Curabitur bibendum felis vel nisl luctus auctor.</span>
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-white"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-white"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-white"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-white"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-white"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-white"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    In tincidunt pharetra libero. Nulla facilisi. Cras rhoncus egestas orci, non ultrices justo tincidunt sed.
+
+                    <img class="img-fluid" src="http://freakpixels.com/portfolio/brio/assets/images/carousel/1.jpg">
+
+                    Nunc bibendum rutrum purus, at aliquam quam congue eget. Praesent tincidunt nibh at purus rutrum rhoncus. Morbi convallis, diam eu commodo lacinia, libero nisi rutrum justo, sit amet eleifend tortor turpis eget magna. Donec sollicitudin ex quis risus malesuada, ac varius magna commodo. In non elit at ligula iaculis lobortis at ut urna.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <p>Morbi convallis, diam eu commodo lacinia, libero nisi rutrum justo, sit amet eleifend tortor turpis eget magna.</p>
+                    <h5 class="weight-400">Nunc bibendum rutrum purus, at aliquam quam congue eget. </h5>
+
+                    Donec sollicitudin ex quis risus malesuada, ac varius magna commodo. In non elit at ligula iaculis lobortis at ut urna.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    Sed feugiat accumsan malesuada.
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    Etiam auctor sapien ut nisi facilisis blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas et ornare purus. Nam placerat nec nisl quis fringilla. Vivamus congue feugiat tortor eu malesuada. Ut tristique commodo ex eget placerat. Phasellus rutrum augue ut malesuada tincidunt. Etiam sed pellentesque leo. Maecenas maximus arcu vel suscipit rutrum. Praesent consectetur facilisis eros vitae molestie. Cras id ex ligula. Vestibulum dapibus lacus at ante ultricies placerat vel vel metus. Sed feugiat accumsan malesuada.
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <span class="text-danger">Donec sollicitudin ex quis risus malesuada, ac varius magna commodo. In non elit at ligula iaculis lobortis at ut urna.</span>
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-danger mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <span class="text-white">Nulla sit amet odio eu orci tincidunt fringilla ac at est. Donec sed ornare odio, quis porta mi. Fusce ac libero a turpis varius condimentum. Aliquam erat volutpat. Maecenas ut nisi interdum, ultrices lorem at, sodales risus. Suspendisse potenti. Donec quis mattis elit. Donec convallis suscipit dui scelerisque porta. Etiam cursus feugiat luctus. Maecenas laoreet mauris ut libero maximus condimentum.</span>
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-white"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-white"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-white"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-white"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-white"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-white"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    <h6 class="weight-400">Orci varius natoque</h6>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum felis sed erat pellentesque, sed lobortis sapien cursus. Maecenas mollis augue nec eros mollis pellentesque.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-primary mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+
+                    <p class="text-white">Etiam cursus feugiat luctus. Maecenas laoreet mauris ut libero maximus condimentum.</p>
+                    <p class="text-white">Aliquam pulvinar mauris sed nisl eleifend, interdum convallis libero dictum. Nulla auctor, orci vitae imperdiet bibendum, ligula mi malesuada leo, non iaculis neque ligula ac orci.</p>
+
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-white"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-white"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-white"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-white"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-white"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-white"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    <h6 class="weight-400">Curabitur hendrerit tincidunt ultrices</h6>
+                    Nulla sit amet odio eu orci tincidunt fringilla ac at est. Donec sed ornare odio, quis porta mi. Fusce ac libero a turpis varius condimentum. Aliquam erat volutpat. Maecenas ut nisi interdum, ultrices lorem at, sodales risus.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    Nulla sit amet odio eu orci tincidunt fringilla ac at est. Donec sed ornare odio, quis porta mi. Fusce ac libero a turpis varius condimentum. Aliquam erat volutpat. Maecenas ut nisi interdum, ultrices lorem at, sodales risus. Suspendisse potenti. Donec quis mattis elit. Donec convallis suscipit dui scelerisque porta. Etiam cursus feugiat luctus. Maecenas laoreet mauris ut libero maximus condimentum.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card mb-4 note">
+            <div class="card-body pb-5">
+                <div contenteditable="true">
+                    Etiam auctor sapien ut nisi facilisis blandit. Pellentesque habitant morbi tristique senectus.
+                </div>
+                <div class="controls">
+                    <ul class="list-inline m-0 note-controls">
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Remind me" class="text-muted"><span class="material-icons md-18">alarm_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Collaborator" class="text-muted"><span class="material-icons md-18">person_add</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change color" class="text-muted"><span class="material-icons md-18">color_lens</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Add image" class="text-muted"><span class="material-icons md-18">image</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Archive" class="text-muted"><span class="material-icons md-18">archive</span></a>
+                        </li>
+                        <li class="list-inline-item dropup float-right">
+                            <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" title="More" class="text-muted"><span class="material-icons md-18">more_vert</span></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Delete note</a>
+                                <a class="dropdown-item" href="#">Edit Note</a>
+                                <a class="dropdown-item" href="#">Add label</a>
+                                <a class="dropdown-item" href="#">Make a copy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>

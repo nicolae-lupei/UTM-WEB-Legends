@@ -10,56 +10,56 @@
           defaultDate: moment('2018-06-01'),
           events: [
         {
-          title: 'All Day Event',
+          title: 'Obiect 1',
           start: '2018-06-01'
         },
         {
-          title: 'Long Event',
+            title: 'Obiect 1',
           start: '2018-06-07',
           end: '2018-06-10'
         },
         {
           id: 999,
-          title: 'Repeating Event',
+            title: 'Obiect 1',
           start: '2018-06-09T16:00:00'
         },
         {
           id: 999,
-          title: 'Repeating Event',
+            title: 'Obiect 4',
           start: '2018-06-16T16:00:00'
         },
         {
-          title: 'Conference',
+            title: 'Obiect 1',
           start: '2018-06-11',
           end: '2018-06-13'
         },
         {
-          title: 'Meeting',
+            title: 'Obiect 1',
           start: '2018-06-12T10:30:00',
           end: '2018-06-12T12:30:00'
         },
         {
-          title: 'Lunch',
+            title: 'Obiect 3',
           start: '2018-03-12T12:00:00'
         },
         {
-          title: 'Meeting',
+            title: 'Obiect 2',
           start: '2018-06-12T14:30:00'
         },
         {
-          title: 'Happy Hour',
+            title: 'Obiect 1',
           start: '2018-06-12T17:30:00'
         },
         {
-          title: 'Dinner',
+            title: 'Obiect 1',
           start: '2018-06-12T20:00:00'
         },
         {
-          title: 'Birthday Party',
+            title: 'Obiect 4',
           start: '2018-06-13T07:00:00'
         },
         {
-          title: 'Click for Google',
+            title: 'Obiect 1',
           url: 'http://google.com/',
           start: '2018-06-28'
         }

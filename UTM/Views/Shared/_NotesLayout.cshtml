@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Forum</title>
+    <title>@ViewData["Title"] - Notes</title>
 
 
     <link href="~/assets/css/pages/messages.css" rel="stylesheet">
@@ -58,17 +58,15 @@
         <!-- SIDEBAR -->
         <aside class="sidebar">
             <nav class="navbar navbar-dark bg-primary">
-                <a class="navbar-brand m-0 py-2 brand-title" href="#">UTM Forum</a>
+                <a class="navbar-brand m-0 py-2 brand-title" href="#">UTM Notes</a>
                 <span></span>
                 <a class="navbar-brand py-2 material-icons toggle-sidebar" href="#">menu</a>
             </nav>
 
             <nav class="navigation">
                 <ul>
-                    <li class=""><a asp-controller="ForumApp" asp-action="Index" title="Dashboard"><span class="nav-icon material-icons">public</span> Dashboard</a></li>
-                    <li class=""><a asp-controller="ForumApp" asp-action="Subjects" title="Dashboard"><span class="nav-icon material-icons">public</span> Subiecte</a></li>
-                    <li class=""><a asp-controller="ForumApp" asp-action="Subjects" title="Dashboard"><span class="nav-icon material-icons">public</span> Creeaza subiect</a></li>
-                    <li class=""><a asp-controller="ForumApp" asp-action="PublicForum" title="Dashboard"><span class="nav-icon material-icons">public</span> Forum global</a></li>
+                    <li class=""><a asp-controller="NotesApp" asp-action="Index" title="Dashboard"><span class="nav-icon material-icons">public</span> Notitele mele</a></li>
+                    <li class=""><a asp-controller="NotesApp" asp-action="Index" title="Dashboard"><span class="nav-icon material-icons">public</span> Adauga o notita</a></li>
                 </ul>
             </nav>
 
